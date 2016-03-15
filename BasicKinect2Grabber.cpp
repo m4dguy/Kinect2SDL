@@ -36,7 +36,6 @@ BasicKinect2Grabber::~BasicKinect2Grabber()
 	}
 
 	UtilsKinect::safeRelease(_cmapper);
-	
 	Utils::safeRelease(_depth2ColourMap);
 	Utils::safeRelease(_colour2DepthMap);
 	Utils::safeRelease(_depthBuffer);

@@ -7,8 +7,8 @@ typedef unsigned short ushort;
 
 namespace Utils
 {
-	// Safe release for interfaces
-	template<typename T> inline void safeRelease(T* pointer)
+	// Safe release for pointers
+	template<typename T> inline void safeRelease(T*& pointer)
 	{
 		if (pointer)
 		{
